@@ -35,3 +35,7 @@ h2 {
   margin-bottom: 10px;
   color: #2c3e50;
 }
+.menu a:hover {
+  text-decoration: underline;
+  color: #f1c40f;
+}
