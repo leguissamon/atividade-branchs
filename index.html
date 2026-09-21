@@ -14,6 +14,7 @@
   <a href="#galeria">Galeria</a>
   <a href="#contato">Contato</a>
 </nav>
+<button id="tema" type="button">Alternar tema</button>
   </header>
 
   <main>
@@ -44,5 +45,10 @@
   <footer class="rodape">
   <p>&copy; 2026 Atividade Branchs. Todos os direitos reservados.</p>
 </footer>
+<script>
+  document.getElementById("tema").addEventListener("click", function () {
+    document.body.classList.toggle("escuro");
+  });
+</script>
 </body>
 </html>
